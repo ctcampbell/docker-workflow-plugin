@@ -33,4 +33,7 @@ f.section(title:_("Declarative Pipeline (Docker)")) {
         f.textbox()
     }
     f.property(field: "registry")
+    f.entry(field: "defaultArgs", title:_("Default run Arguments")) {
+        f.textbox()
+    }
 }
